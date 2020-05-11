@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
+    "watch": true,
     "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": "src",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

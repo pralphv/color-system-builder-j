@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".write": "$uid === auth.uid",
+        ".read": true
+      }
+    },
+    "submittedSchemes": {
+      "$schemeId": {
+        ".write": true,
+        ".read": true,
+        ".validate": "newData.child('uid').val() === auth.uid",
+        ".indexOn": "likes"
+      }
+    }
+  }
+}
