@@ -24,7 +24,7 @@
     "@types/recharts": "^1.8.10",
     "@types/wcag-contrast": "^2.1.0",
     "@types/webpack-env": "^1.15.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "color-convert": "^2.0.1",
     "firebase": "^7.14.2",
     "firebase-tools": "^8.2.0",
